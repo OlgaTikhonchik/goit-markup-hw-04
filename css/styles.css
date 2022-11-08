@@ -132,6 +132,7 @@ p {
     display: flex;
     padding-top: 32px;
     padding-bottom: 32px;
+    
    
 }
 .contacts .link {
@@ -140,9 +141,28 @@ p {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.2;
-    
+    display: flex; 
+    align-items: center;
     /* background-color: tomato; */
 }
+
+.mail-icon {
+    margin-right: 10px;
+    fill: currentColor;
+}
+
+.phone-icon {
+    margin-right: 10px;
+    fill: currentColor;
+
+}
+.mail-icon:hover,
+.mail-icon:focus,
+.phone-icon:hover,
+.phone-icon: :focus {
+    fill: var(--accent-color);
+}
+
 
 .contacts .link:hover,
 .contacts .link:focus {
@@ -271,6 +291,18 @@ img {
     margin-bottom: 0;
     margin-top: 0;
    
+}
+
+.feature-icon {
+    display: flex;
+    height: 120px;
+    width: 270px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 25px 100px;
+    background-color:rgba(245, 244, 250, 1);
+ 
 }
 
 .item-feature {
@@ -538,7 +570,7 @@ img {
 
 
 .gallery-item {
-    flex-basis: ((100% - 60px) / 3);
+    flex-basis: calc((100% - 60px) / 3);
 }
 
 
