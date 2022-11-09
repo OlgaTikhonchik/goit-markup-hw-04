@@ -429,6 +429,7 @@ img {
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
+    background-color: var(--white-color);
 } 
 
 .social-list {
@@ -442,13 +443,16 @@ img {
 
 .social-item {
     flex-basis: calc((100% - 30px) / 4);
+    width: 44px;
+    height: 44px;
+    
     
 }
 
 .social-link {
     display: flex;
-    width: 44px;
-    height: 44px;
+    width: 100%;
+    height: 100%;
     justify-content: center;
     align-items: center;
     
@@ -458,7 +462,7 @@ img {
 .social-link {
     background-color: var(--white-color);
     color: var(--social-color);
-    border-radius: 50%
+    border-radius: 50%;
 
 }
 
@@ -474,6 +478,10 @@ img {
 
 .social-icon {
     fill: currentColor;
+    /* justify-content: center;
+    align-items: center;
+     */
+
 }
 
 .text-teams { 
