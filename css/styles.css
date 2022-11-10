@@ -99,8 +99,9 @@ p {
  
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: var(--primary-text-color);
+    color: var(--accent-color);
 }
+
 
 .site-nav .item {
     margin-right: 50px;
@@ -294,6 +295,8 @@ img {
    
 }
 
+
+
 .feature-icon {
     display: flex;
     height: 120px;
@@ -301,13 +304,13 @@ img {
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
-    padding: 25px 100px;
     background-color:rgba(245, 244, 250, 1);
+    border-radius: 4px;
  
 }
 
 .item-feature {
-     flex-basis: calc((100% - 90px)/4);
+    flex-basis: calc((100% - 90px)/4);
 }
 
 .section.feature {
@@ -628,6 +631,8 @@ img {
 
 .social-title {
     display: block;
+    font-weight: 700;
+    font-style: normal;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
